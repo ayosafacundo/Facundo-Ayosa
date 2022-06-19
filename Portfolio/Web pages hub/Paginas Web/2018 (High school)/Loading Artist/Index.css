@@ -1,0 +1,102 @@
+body { /* Color del fondo */
+	background-color: #06e;
+}
+#headercontainer { /* Posicionamiento del header */
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+#headercontainer ul { /* Propiedades del Ul */
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fd6900;
+	width: 100%;
+}
+#headercontainer li a{ /* Propiedades de los botones */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+#headercontainer li a:hover { /* Propiedad que le cambia el color al pasar el mouse por encima */
+	color: yellow;
+}
+
+#Container { /* Propiedades del contenedor */
+	padding-top: 40px;
+	display: block;
+	width: 1080px;
+	background-color: white;
+	margin: auto;
+	height: 100%;
+}
+#banner { /* Hace que el banner quede en el medio de la pantalla */
+	display: block;
+	margin: auto;
+}
+#textcontainer{ /* Propiedades del contenedor de texto */
+	display: block;
+	width: 75%;
+	margin: auto;
+	margin-top: 25px;
+	height: 100%;
+}
+#title {
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Arial', sans-serif;
+}
+#maintext {
+	display: block;
+	float: right;
+	margin-top: 25px;
+	font-size: 16px;
+	font-family: 'Arial', sans-serif;
+	width: 75%;
+}
+#imagecontainer{ /* Propiedades del contenedor de las imagenes */
+	display: block;
+	width: 75%;
+	margin: auto;
+	margin-top: 25px;
+}
+#facebooktitle {
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Arial', sans-serif;
+}
+#container-img {
+	margin-top: 25px;
+}
+#img-left {
+	float: left;
+	margin-bottom: 5px;
+	width: 49%;
+}
+#img-right {
+	float: right;
+	margin-bottom: 5px;
+	width: 49%;
+}
+#lasttext {
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 25px;
+}
+footer	{ /* Propiedades del footer, posicionamiento y color de fondo */
+	position: absolute;
+	bottom: -95px;
+	left: 0;
+	width: 100%;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	background-color: #fd6900;
+}
+#rights { /* Propiedades del texto dentro del footer */
+	text-align: center;
+	font-size: 20px;
+}

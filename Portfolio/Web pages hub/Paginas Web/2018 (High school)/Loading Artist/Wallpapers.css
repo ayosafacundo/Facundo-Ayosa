@@ -1,0 +1,51 @@
+header { /* Ver Index.css */
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+body {
+	background-color: #06e;
+}
+#headercontainer ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fd6900;
+	width: 100%;
+}
+#headercontainer li a{
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+#headercontainer li a:hover {
+	color: yellow;
+}
+p {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Arial', sans-serif;
+}
+#Container { /* Propiedades del Contenedor */
+	padding-top: 40px;
+	display: block;
+	width: 1080px;
+	background-color: white;
+	margin: auto;
+	height: 100%;
+}
+#imgcontainer { /* Propiedades del Contenedor de Imagenes*/
+	display: block;
+	width: 100%;
+	margin-left: 90px;
+}
+#lasttext {
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Arial', sans-serif;
+	padding-bottom: 50px;
+}

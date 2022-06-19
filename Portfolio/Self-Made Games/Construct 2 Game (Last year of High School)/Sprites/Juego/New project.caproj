@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <app-id></app-id>
+    <unique-id>3phjf8c2bcezm</unique-id>
+    <saved-with-version>25500</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>640</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Hide address bar">No</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use iOS retina display">All devices</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="BackgroundTile" sid="313356961762274">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="MovingSolidTile" sid="568742100674762">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="746618257283289">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="990276579922283">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="JumpThruTile" sid="455769216242571">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="370411804044027">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="Keyboard" sid="213382444013291">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Text" sid="318347871914091">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TiledBackground" sid="585103071815895">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Ayosa\Desktop\background0.png" />
+        </object-type>
+        <object-type name="Tilemap" sid="492732712650084">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\Ayosa\Desktop\Tileset 2.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Sprite" sid="696115662927812">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="BoundToLayout" sid="516058294863765">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="985606320328356">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="894615927279933" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.533333" original-source="C:\Users\Ayosa\Desktop\Sprites\Guy\S-1.png">
+                        <collision-poly>
+                            <point x="0.2" y="0.133333" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9" y="0.0666667" />
+                            <point x="0.9" y="0.466667" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="0.866667" />
+                            <point x="0" y="1" />
+                            <point x="0.2" y="0.466667" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ayosa\Desktop\Sprites\Guy\S-2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.533333" original-source="C:\Users\Ayosa\Desktop\Sprites\Guy\S-3.png" />
+                </animation>
+                <animation framecount="2" loop="0" name="Running" pingpong="0" repeatcount="1" repeatto="0" sid="594970858017879" speed="5">
+                    <frame duration="1" hotspotX="0.545455" hotspotY="0.533333" original-source="C:\Users\Ayosa\Desktop\Sprites\Guy\R-1.png">
+                        <collision-poly>
+                            <point x="0.181818" y="0.133333" />
+                            <point x="0.454545" y="0" />
+                            <point x="0.818182" y="0.133333" />
+                            <point x="0.818182" y="0.866667" />
+                            <point x="0.454545" y="1" />
+                            <point x="0.181818" y="0.866667" />
+                            <point x="0.0909091" y="0.466667" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.545455" hotspotY="0.533333" original-source="C:\Users\Ayosa\Desktop\Sprites\Guy\R-4.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="20" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

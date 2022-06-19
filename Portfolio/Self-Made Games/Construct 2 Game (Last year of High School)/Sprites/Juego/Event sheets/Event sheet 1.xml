@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <comment>Use the down arrow to allow the player to deliberately drop down through a jump-thru platform.</comment>
+        <event-block sid="300169016273181">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="723432313437540" type="Keyboard">
+                    <param id="0" name="Key">40</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <comment>Allow WASD as alternate controls to arrow keys.</comment>
+        <event-block sid="498028325097404">
+            <conditions>
+                <condition id="2" name="Key is down" sid="851731621783383" type="Keyboard">
+                    <param id="0" name="Key">87</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="688551917508651">
+            <conditions>
+                <condition id="2" name="Key is down" sid="876428008736766" type="Keyboard">
+                    <param id="0" name="Key">65</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="862377455774497">
+            <conditions>
+                <condition id="2" name="Key is down" sid="805330714285844" type="Keyboard">
+                    <param id="0" name="Key">83</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="818979522520518">
+            <conditions>
+                <condition id="2" name="Key is down" sid="288410259339236" type="Keyboard">
+                    <param id="0" name="Key">68</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <comment>Mirror the player&apos;s image so they appear facing the right way when moving left or right.</comment>
+        <event-block any="1" sid="215455598213160">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="365983975826716" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+                <condition id="0" name="On key pressed" sid="136076345404459" type="Keyboard">
+                    <param id="0" name="Key">65</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block any="1" sid="938289165962309">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="800910074986883" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+                <condition id="0" name="On key pressed" sid="454285634836372" type="Keyboard">
+                    <param id="0" name="Key">68</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <comment>If the player falls off the bottom of the layout, restart the level.</comment>
+        <event-block sid="254847532463804">
+            <conditions />
+            <actions>
+                <action id="-26" name="Restart layout" sid="610879941426184" type="System" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

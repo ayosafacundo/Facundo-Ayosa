@@ -1,0 +1,53 @@
+header {
+	margin-bottom: 60px;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+   	position: fixed;
+	top: 0;
+	left: 0; 
+	width: 100%;
+}
+header li {
+    float: left;
+    border-right: 1px solid white;
+}
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+header li a:hover {
+    background-color: white;
+    color: lightblue;
+}
+
+#texto {
+	margin: auto;
+	text-align: center;
+	width: 50%;
+}
+img {
+	padding-top: 25px;
+	display:block;
+	margin: auto;
+}
+
+footer  {
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    background-color: lightblue;
+}
+#derechos {
+    text-align: center;
+    color: grey;
+    padding: 1rem; 
+}

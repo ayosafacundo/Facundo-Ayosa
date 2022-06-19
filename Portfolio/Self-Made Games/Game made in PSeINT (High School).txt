@@ -1,0 +1,190 @@
+Algoritmo Juego
+	definir respuesta Como Entero
+	definir nombre Como caracter
+	definir Cosa Como Entero
+	definir variable como Entero
+	//inicio
+	mostrar "¿Cómo te llamas?"
+	leer nombre
+	borrar pantalla
+	Mostrar nombre, ", Te encuentras en una cueva muy mal iluminada, tienes una vela y un fósforo que puedes encender, ¿qué haces?"
+	mostrar "1- Encender la vela con el fósforo"
+	mostrar "2- Encender el fósforo y dejar la vela para después"
+	mostrar "3- no haces nada e investigas un poco el lugar"
+	cosa<-cosa+1
+	mientras cosa=1
+		mostrar "Respuesta:"
+		leer respuesta
+		si respuesta>3 o respuesta<1 entonces
+		mostrar "Tienes que elegir una respuesta válida"
+		Sino
+			si respuesta=1 Entonces
+				mostrar "Enciendes la vela, el fósforo se apaga, al fin puedes ver"
+				variable<-1
+				cosa<-2
+				borrar pantalla
+			FinSi
+			si respuesta=2 Entonces
+				mostrar "Enciendes el fosforo, pero una brisa lo apaga de inmediato dejandote sin fósforo y sin luz"
+				mostrar "No tienes luz, ni forma de hacer fuego, no ves nada por lo que caes en la desesperacion. Has Perdido"
+				cosa<-0
+				Borrar Pantalla
+			FinSi
+			si respuesta=3 Entonces
+				mostrar "Encuentras lo que parece ser una caja manoteando por el lugar, parece estar encima de una mesa, pero no sabes qué contiene"
+				variable<-2
+				cosa<-2
+				Borrar Pantalla
+			FinSi
+		FinSi
+	FinMientras
+	
+	mientras cosa=2
+		si Variable=1 entonces
+				mostrar "Encuentras una mesa delante tuya, encima de ésta hay una caja de cartuchos de escopeta y una escopeta ¿Qué haces?"
+				Mostrar "1- Lo agarro, me puede salvar la vida"
+				Mostrar "2- Lo dejo, no creo necesitarlo"
+				leer respuesta
+				si respuesta<1 o respuesta>2 Entonces
+					mostrar "Tienes que elegir una respuesta válida"
+				sino
+					si respuesta=1 Entonces
+						mostrar "Agarras la escopeta y los cartuchos, parecen en buen estado"
+						Variable<-3
+						cosa<-3
+						borrar pantalla
+					FinSi
+					si respuesta=2 Entonces
+						mostrar "Dejas la escopeta, no crees necesitarla"
+						variable<-4
+						cosa<-3
+						Borrar Pantalla
+					FinSi
+				FinSi
+			FinSi
+			
+			
+			si Variable=2 Entonces
+				mostrar "No ves nada, te estás empezando a desesperar, ¿qué haces?"
+				mostrar "1- Enciendes la vela con el fósforo"
+				mostrar "2- Enciendes el fósforo, pero no la vela"
+				leer respuesta
+				si respuesta<1 o respuesta>2 entonces
+					mostrar "Tienes que elegir una respuesta válida"
+				Sino
+					si respuesta=1 entonces
+						Mostrar "Enciendes la vela con el fósforo, al fin puedes ver"
+						Variable<-1
+						Borrar Pantalla
+					Sino
+						Mostrar "Enciendes el fósforo, pero se apaga por una pequeña brisa"
+						Mostrar "No tienes luz ni forma de hacer fuego, te desesperas. Has Perdido"
+						cosa<-0
+						Borrar pantalla
+					FinSi
+				FinSi
+		FinSi
+		
+	FinMientras
+	
+	mientras cosa=3
+		si variable=3 entonces
+			mostrar "Tienes una escopeta, munición y una vela, ¿qué haces?"
+			mostrar "1- Te diriges hacia el camino de la derecha"
+			mostrar "2- Te diriges hacia el camino de la izquierda"
+			leer respuesta
+			si respuesta<1 o respuesta>2 entonces
+				Mostrar "Tienes que elegir una respuesta válida"
+			Sino
+				si respuesta=1
+					Mostrar "despues de mucho caminar, encuentras la salida de la cueva"
+					Mostrar "HAS GANADO"
+					cosa<-0
+					borrar pantalla
+				Sino
+					Mostrar "Empiezas a caminar hacia la izquierda"
+					cosa<-4
+					borrar pantalla
+				FinSi
+			FinSi
+		Sino
+			Mostrar "Dejas la escopeta, te llevas la vela,¿hacia dónde vas?"
+			Mostrar "1- Te diriges hacia el camino de la derecha"
+			Mostrar "2- Te diriges hacia el camino de la izquierda"
+			leer respuesta
+			si respuesta<1 o respuesta>2 entonces
+				Mostrar "Tienes que elegir una respuesta válida"
+			Sino
+				si respuesta=1
+					Mostrar "despues de mucho caminar, encuentras la salida de la cueva"
+					Mostrar "HAS GANADO"
+					cosa<-0
+					borrar pantalla
+				Sino
+					Mostrar "Empiezas a caminar hacia la izquierda"
+					cosa<-6
+					variable<-1
+					borrar pantalla
+				FinSi
+			FinSi
+		FinSi
+	FinMientras
+	
+	mientras cosa=4
+		Mostrar "Caminando te encuentras con otra bifurcacion, hacia dónde te diriges?"
+		mostrar "1- Te diriges hacia el camino de la derecha"
+		Mostrar "2- Te diriges hacia el camino de la Izquierda"
+		leer respuesta
+		si respuesta<1 o respuesta>2 entonces
+			mostrar "Tienes que elegir una respuesta válida"
+		Sino
+			si respuesta=1 Entonces
+				Mostrar "Empiezas a caminar por el camino de la derecha"
+				Variable<-1
+				cosa<-5
+				Borrar Pantalla
+			Sino
+				Mostrar "Empiezas a caminar por el camino de la izquierda"
+				cosa<-5
+				Variable<-2
+				Borrar Pantalla
+			FinSi
+		FinSi
+	FinMientras
+	
+	mientras cosa=5
+		Si variable=1 entonces
+			Mostrar "Te encuentras a una persona de espaldas que parece no haberte escuchado, ¿qué haces?"
+			Mostrar "1- Dispararle, Parece que lleva un arma, además, no sabes por qué esta ahi"
+			mostrar "2- preguntarle qué hace allí"
+			leer respuesta
+			si respuesta<1 o respuesta>2 Entonces
+				Mostrar "Tienes que elegir una respuesta válida"
+			Sino
+				si Respuesta=1 Entonces
+					Mostrar "Le disparas y cae sin oponer resistencia, parece que llevaba un cuchillo de supervivencia"
+					Mostrar "Por falta de tiempo y sueño excesivo no pude hacer mas, asi que HAS GANADO"
+					cosa<-0
+					Borrar Pantalla
+				Sino
+					Mostrar "Mientras te acercas, Él saca un cuchillo y te hace un corte en la garganta"
+					Mostrar "Sangras hasta morir, HAS PERDIDO"
+					cosa<-0
+					Borrar Pantalla
+				FinSi
+			FinSi
+		Sino
+			Mostrar "Te encuentras la salida de la cueva"
+			Mostrar "HAS GANADO"
+			Cosa<-0
+		FinSi
+	FinMientras
+	Mientras Cosa=6
+		Si variable=1 entonces
+			Mostrar "Te encuentras a una persona de espaldas que parece no haberte escuchado, decides preguntarle qué hace alli"
+			Mostrar "Mientras te acercas, Él saca un cuchillo y te hace un corte en la garganta"
+			Mostrar "Sangras hasta morir, HAS PERDIDO"
+			cosa<-0
+		FinSi
+	FinMientras
+FinAlgoritmo
