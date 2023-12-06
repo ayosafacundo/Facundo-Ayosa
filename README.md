@@ -1,5 +1,13 @@
 <h1 align="center">Hi 👋, I'm Facundo Ayosa</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">A passionate frontend developer from Argentina</h3>
+
+- 🔭 I’m currently working on a [University WebApp + Entire Campus](https://github.com/ayosafacundo/management-app)
+
+- 🌱 I’m currently learning <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>, <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/>
+
+- 👨‍💻 All of my projects are available at [https://ayosafacundo.github.io/portfolio/](https://ayosafacundo.github.io/portfolio/)
+
+- 📫 How to reach me **ayosafacundo@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
