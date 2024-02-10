@@ -16,6 +16,19 @@ E-Commerce website default project with proper user management
 
 ### MunGell/awesome-for-beginners PLUS (Stage: Theory)
 A visualizer of the repository that refreshes itself automatically
+
+### Dungeons and Dragons Character Database (Stage: Brainstorming)
+A D&D Database that lists each character made.
+
+Framework: Tauri
+Frontend: Svelte with Typescript / React with Typescript
+Backend: Rust
+Design: TODO
+Features:
+  - Ability to search for characters by race, class, variant, background and stats.
+  - Be able to create a "Template character" from which it will make variants of the character.
+  - Be able to put a drawing as the Icon of the character.
+  - Be able to edit the character inside the Character Database, undo and redo the changes, and save them to disk.
  
 ### ModularToolkit (Stage: BrainStorming)
 Fully customizable ToolKit with the possibility of adding and removing plugins (tools).
@@ -49,7 +62,7 @@ Features:
 ### React Hook Library (Stage: WIP)  
 React website showing numerous Hooks with tests.  
 
-Framework: React w/Typescript.  
+Framework: React with Typescript.  
 Backend: None.  
 Design: Done.  
 Features:  
@@ -61,7 +74,7 @@ Features:
 ### University Website + Campus (Stage: WIP)  
 React University website plus entire campus.
 
-Framework: React & Redux w/Typescript.  
+Framework: React & Redux with Typescript.  
 Backend: Rust? Express?  
 Design: WIP.  
 Features:
