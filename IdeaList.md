@@ -11,6 +11,39 @@ Stages:
 
 ## Ideas
  
+### AyoTech (Stage: Theory)
+GregTech meets Idle but it's only a 2D Interface where you get the items and craft the components.
+
+Graphics Motor: ?.  
+Design: ToDo  
+Features:  
+  - Power stages.  
+
+|Short |Full |Maximum Voltage|
+|:---:|:---:|:---:|
+|M |Manual |0|
+|ULV |Ultra Low Voltage |8|
+|LV |Low Voltage |32|
+|MV |Medium Voltage |128|
+|HV |High Voltage |512|
+|EV |Extreme Voltage |2048|
+|IV |Insane Voltage |8192|
+|LuV |Ludicrous Voltage |32768|
+|ZPM |ZPM Voltage |131072|
+|UV |Ultimate Voltage |524288|
+|UHV* |Highly Ultimate Voltage |2097152|
+|UEV* |Extremely Ultimate Voltage |8388608|
+|UIV* |Insanely Ultimate Voltage |33554432|
+|UMV** |Mega Ultimate Voltage |134217728|
+|UXV** |Extended Mega Ultimate Voltage |536870912|
+|MAX** |Maximum Voltage |2147483647 |
+
+  - Interface responds to the average power stage of every one of your machines.  
+  - Cell like structure for the machines, each cell of distance will add a value of waiting time between processes, decreasing with power tier.
+  - You'll need to make every single bit of the machine and craft it all together, and then place it somewhere and link the power, item input and item output.
+  - GregTech-like Power generation.
+  - Maybe Create-like progression before Energy?
+
 ### E-Commerce website (Stage: Theory)
 E-Commerce website default project with proper user management
 
