@@ -10,12 +10,51 @@ Stages:
   - **Finished**: Idea Completed.
 
 ## Ideas
- 
+
+### Clients manager desktop app
+A client manager software that stores everything locally.
+
+Framework: Tauri
+Front-end: React (Vite + deno)
+Back-end: Rust
+
+Features:
+  - Contacts list.
+  - Calendar.
+    - Appointments
+    - Expected schedules that can be confirmed.
+    - Confirmed AND denied schedules will affect Money and Contacts if needed.
+  - Money.
+    - Set up monthly payments to receive per contact.
+    - Set up monthly payments to do to services.
+    - Automatically calculate total received, to receive and spent.
+  - 
+
+### Pico-8 Game
+A game made entirely on Pico-8 without adding modifications, just Pico-8 and code.
+
+Graphics Motor: Pico-8.
+Design: To Do.
+Features:
+  - To Do.
+
+### Trello Desktop Application.
+Trello app made in Rust.
+
+Operative System: To be defined.
+Design: To Do.
+Features:
+  - Capable to sync to Github or Google Drive for cloud saves.
+  - Capable to sync projects across accounts.
+  - Cellphone App only for Android.
+  - Open Source.
+
+
 ### AyoTech (Stage: Theory)
 GregTech meets Idle but it's only a 2D Interface where you get the items and craft the components.
 
 Graphics Motor: ?.  
-Design: ToDo  
+Design: To Do.  
 Features:  
   - Power stages.  
 
