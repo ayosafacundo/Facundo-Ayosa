@@ -11,7 +11,21 @@ Stages:
 
 ## Ideas
 
-### Clients manager desktop app
+### Writer's Golden Tool (Stage: Theory)
+A writer's golden tool that allows the user to create stories with a lot of features useful to get your idea into (digital) paper.
+
+Framework: ?.
+Front-end: ?.
+Back-end: ?.
+
+Features:
+  - Document writing capability
+  - Family tree Creation
+  - Game Wikipedia-like description place
+  - World Map Creation
+  - House/Room Creation 
+
+### Clients manager desktop app (Stage: Theory)
 A client manager software that stores everything locally.
 
 Framework: Tauri
@@ -130,6 +144,12 @@ Features:
   - Hability to search through tags, use cases, website's objective and website's title.  
   - Everyone will be able to add any website (with previous human analysis to prevent malicious websites to be published).  
   - A ton of tags that describes the website in a lot of ways.  
+Possible inspiration:
+  - https://lib.rs/
+  - https://www.npmjs.com/
+  - https://yarnpkg.com/
+  - https://devtools.ly/
+
 
 ### React Hook Library (Stage: WIP)  
 React website showing numerous Hooks with tests.  
